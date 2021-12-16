@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'hamLight';
+    src: url('../../fonts/Hahmlet-Light.ttf')
+}
+
+@font-face{
+    font-family: 'hamMedium';
+    src: url('../../fonts/Hahmlet-Medium.ttf')
+}
+
+@font-face{
+    font-family: 'hamExtraL';
+    src: url('../../fonts/Hahmlet-ExtraLight.ttf')
+}
+
+@font-face {
+    font-family: '함박눈';
+    src: url('../../fonts/SF함박눈-TTF.ttf');
+}
+
+
+.calendar {
+    font-family: 'hamLight';
+    .todayButton {
+        .todayButton {
+            background-color: transparent;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border-color: red;
+        }
+    }
+
+    .nextMonthButton {
+        .nextMonthButton {
+            background-color: transparent;
+            color: transparent;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+        }
+    }
+
+    .restButton {
+        .restButton {
+            background-color: transparent;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: none;
+        }
+    }
+}
+
+.App {
+    font-family: 'hamMedium';
+    margin-top: 40%;
+    .control {
+        // font-size: larger;
+        margin: 0 auto;
+        .beforeMonth {
+            background-color: gray;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .nowMonth {
+
+        }
+
+        .afterMonth {
+            background-color: gray;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: none;
+        }
+    }
+
+    .calendar {
+        font-size: large;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .diary-print {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

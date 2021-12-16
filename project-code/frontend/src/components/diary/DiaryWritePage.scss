@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'hamLight';
+    src: url('../../fonts/Hahmlet-Light.ttf')
+}
+
+@font-face{
+    font-family: 'hamMedium';
+    src: url('../../fonts/Hahmlet-Medium.ttf')
+}
+
+@font-face{
+    font-family: 'hamExtraL';
+    src: url('../../fonts/Hahmlet-ExtraLight.ttf')
+}
+
+
+.Diary{
+    border: 2px solid #CADCAC;
+    border-radius: 20px;
+    display: flex;
+    max-width: 100%;
+    height: 92%;
+    margin: 5%;
+
+    .DiaryTitle{
+        font-family: 'hamLight';
+        display: flex;
+        
+        margin-top: 13%;
+        margin-left: 17%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        border-style: dashed;
+        border-color:lightgray;
+        border-width: 1.6px;
+
+        border-radius: 10px;
+        outline: none;
+    
+    }
+
+
+
+    #date{
+        font-family: 'hamMedium';
+
+        margin-top: 60px;
+        margin-left: 30px;
+        
+        border:none;
+        border-color: rgba(206, 202, 202, 0.775);
+
+        color: #FECD6E;
+
+    
+    }
+
+    .DiaryContent{
+        font-family: 'hamLight';
+        font-size: 15px;
+
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 9px;
+        margin-top: 5%;
+        margin-left: 16%;
+
+        border-style: dashed;
+        border-width: 1.6px;
+        border-color: lightgray;
+        border-radius: 10px;
+
+        outline: none;
+    }
+
+    .DiaryWriteButton{
+        font-family: 'hamMedium';
+        margin-top: 15px;
+        margin-left: 52%;
+        margin-bottom: 15px;
+
+        background-color: #FECD6E;
+        border: none;
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        
+    }
+    
+
+}

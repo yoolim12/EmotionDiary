@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+#flower {
+    width: 50%;
+    height: 60%;
+    padding: 43% 25% 30% 25%;
+    object-fit: contain;
+    position: absolute;
+    display: block; 
+}
+
+#background {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5% 5% 5% 5%;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+#flower-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0;
+    position: relative;
+    text-align: center;
+}

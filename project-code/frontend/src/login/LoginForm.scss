@@ -1,0 +1,80 @@
+@font-face {
+    font-family: '함박눈';
+    src: url('../fonts/SF함박눈-TTF.ttf');
+}
+
+@font-face{
+    font-family: 'hamLight';
+    src: url('../fonts/Hahmlet-Light.ttf')
+}
+
+
+.login {
+    text-align: center;
+    place-items: center;
+    height: 92%;
+    margin: 5%;
+    border: 1.5px solid #CADCAC;
+    border-radius: 20px;
+
+    .logintitle {
+        margin-top: 40%;
+        font-size: 30px;
+        font-family: '함박눈';
+        // font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+    }
+
+    .email-input {
+        font-family: '함박눈';
+        font-size: 13px;
+        height: 35px;
+        width: 230px;
+        margin-top: 5%;
+        background-color: #dfdede;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .error {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .pw-input {
+        font-family: '함박눈';
+        font-size: 13px;
+        height: 35px;
+        width: 230px;
+        margin-top: 10px;
+        background-color: #dfdede;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .loginbutton {
+        font-family: '함박눈';
+        height: 35px;
+        width: 240px; // 위의 텍스트 박스랑 너비를 같게 했는데 얘가 더 좁아보이는 이유는?
+        margin-top: 10px;
+        background-color: #CADCAC;
+        color: white;
+        font-size: 20px;
+        // font-weight: bold;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .loginbutton:hover {
+        background-color: #cadcacb7;
+    }
+    
+    .registerService {
+        font-family: 'hamLight';
+        display: inline;
+        font-size: 13px;
+        margin-top: 10px;
+        text-decoration-line: none;
+    }
+}
+

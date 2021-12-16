@@ -1,0 +1,52 @@
+@font-face{
+  font-family: '함박눈';
+  src: url('../../fonts/SF함박눈-TTF.ttf')
+}
+
+@font-face{
+  font-family: 'hamMedium';
+  src: url('../../fonts/Hahmlet-Medium.ttf')
+}
+
+@font-face{
+  font-family: 'hamExtraL';
+  src: url('../../fonts/Hahmlet-ExtraLight.ttf')
+}
+
+
+.navigation {
+
+  // 책갈피 디자인
+  .menuBar {
+      font-family: 'hamMedium';  
+      display: block;
+      position: relative;
+      text-decoration-line: none;
+      text-align: center;
+      background-color: #93B2CF;
+      border: none;
+      width: 80px;
+      height: 0px;
+      border-left: 15px solid #e1e3ca;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      line-height: 0; // line-height 속성은 텍스트의 줄 간격을 설정합니다. ( 참고 : http://tcpschool.com/css/css_basic_text )  
+
+      .navlink {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+      }
+  }
+
+  .menuBar:hover{
+    background-color: #6994BB;
+  }
+
+  // 책갈피 사이 간격
+  .space {
+    height: 15px;
+  }
+}

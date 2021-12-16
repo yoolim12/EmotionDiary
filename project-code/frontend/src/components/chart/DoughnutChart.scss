@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+@font-face {
+    font-family: '함박눈';
+    src: url('../../fonts/SF함박눈-TTF.ttf');
+}
+
+@font-face{
+    font-family: 'hamLight';
+    src: url('../../fonts/Hahmlet-Light.ttf')
+}
+
+
+
+#dough{
+    font-family: 'hamLight';
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-right: 50px;
+    
+}
+
+#dropdown-year{
+    font-family: 'hamLight';
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-color: #142F43;
+    border-color: #142F43;
+
+}
+
+
+#dropdown-month{
+    font-family: 'hamLight';
+    margin-left: 30px;
+    background-color: #142F43;
+    border-color: #142F43;
+
+
+}

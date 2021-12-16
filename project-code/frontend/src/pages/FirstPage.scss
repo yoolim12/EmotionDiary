@@ -1,0 +1,72 @@
+@font-face {
+    font-family: '함박눈';
+    src: url('../fonts/SF함박눈-TTF.ttf');
+}
+
+
+
+.h{
+    background: url('./1.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+    .serviceName{
+        font-family: '함박눈';
+        font-size: 100px;
+        margin-left: 80px;
+        margin-top: 70px;
+        text-align: left;        
+    }
+
+    .intro{
+        font-family: '함박눈';
+        font-size: 30px;
+        margin-left: 80px;
+        margin-top: 70px;
+        text-align: left;
+        
+    }
+
+    .moreAbout{
+        font-family: '함박눈';
+        font-size:20px;
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-bottom: 15px;
+    
+        background-color: #FECD6E;
+        border: none;
+        width: 30%;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .goWrite{
+        font-family: '함박눈';
+        font-size:20px;
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-bottom: 15px;
+    
+        background-color: #FECD6E;
+        border: none;
+        width: 30%;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .moreAbout:hover{
+        background-color: #fab834;
+      }
+
+
+    .goWrite:hover{
+        background-color: #fab834;
+    }
+
+
+
+}
+
+

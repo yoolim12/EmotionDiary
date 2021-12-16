@@ -1,0 +1,48 @@
+.Team{
+    display: grid;
+    width: auto;
+    height: auto;
+	grid-template-columns: 220px 0px;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+img {
+    width: 203px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .container {
+    width: 200px;
+    height: 400px;
+    border-style: ridge;
+    position: relative;
+    
+  }
+  
+
+  .textbox {
+    position: absolute;
+    width: 200px;
+    height: 37%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(61, 100%, 50%);
+  }
+  
+  .container:hover .textbox {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
